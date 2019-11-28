@@ -1,0 +1,161 @@
+/* Type */
+
+body {
+	background-color: white;
+	color: black;
+	font-family: sans-serif;
+	line-height: 1;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+h4 {
+	max-width: 4em;
+	font-size: 1em;
+	transform: skew(22deg);
+	transform-origin: top;
+}
+.new-color1{
+	color: red;
+}
+
+.new-color2{
+	color: lightblue;
+}
+
+.new-color3{
+	color: green;
+	font-family: 'VT323', monospace;
+	transform: skew(5%);
+}
+
+.new-color4{
+	color: blue;
+}
+
+
+
+.other-font {
+	font-family: 'Mansalva', cursive;
+	color: coral;
+	position: bottom;
+}
+.big {
+	font-size: 2em;
+	-webkit-animation: rainbow 5s infinite; 
+	 -ms-animation: rainbow 5s infinite;
+  	animation: rainbow 5s infinite; 
+}
+
+p {
+	font-size: 5em;
+	font-family: 'Pattaya', sans-serif;
+}
+
+
+h1 {
+	-webkit-animation: rotate-center 5s linear infinite both;
+	font-size: 3em;
+	word-spacing: 0em;
+	font-family: 'Trade Winds', cursive;
+}
+
+h2 {
+	font-size: 1em;
+	padding-bottom: -14em;
+	transform: rotate(90deg);
+	margin-right: -40em;
+}
+
+
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+@-ms-keyframes rainbow{
+   0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+@keyframes rainbow{
+    0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+
+.class1 {
+	color: coral;
+}
+
+.class2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
